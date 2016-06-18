@@ -1,0 +1,497 @@
+/*ОЩИЕ СВЕДЕНИЯ*/
+    @font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+    src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+    url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+	body {
+		height: 100%;
+		background-color: #fff;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		outline: none;
+        font-family: MyriadProRegular;
+    }
+	a, a:hover {
+		text-decoration: none;
+	}
+	.clearfix:before,
+	.clearfix:after {
+	content: " ";
+	display: table;
+	}
+	.clearfix:after {clear: both;}
+    .container {
+	max-width: 70%;
+	margin: 0 auto;
+	padding: 0;
+	}
+
+/*МЕНЮ*/
+
+	#header {
+		background: #fff;
+	}
+
+	.logo {
+		float: left;
+	}
+
+	.nav {
+		float: right;
+		padding-top: 2px;
+	}
+	.nav li {
+		float: left;
+		margin: 10px 35px;
+		width: 60px;
+        font-family: RobotoRegular;
+	}
+	.nav li:last-child { 
+		padding-right: 25px;
+	}
+	.nav a { 
+		font-size: 14px;
+	    color: #000;
+        font-family: RobotoRegular;
+	}
+	.nav a:hover {
+		border-bottom: 1px solid;
+		
+	}
+
+/*ТЕКСТ*/
+    #home {
+    	height: 500px;
+		text-align: center;
+		margin-top:  150px;
+	 }
+    
+    #home h1 {
+    	font-size: 40px;
+        color: #1d1e1f;
+    }
+    #home h3 {
+    	margin-bottom: 40px;
+    	font-size: 16px;
+    	padding: 10px 250px 20px;
+    	color: #898888;
+    }
+    .btn {
+		color: #000;
+        border: 1px solid #000;
+        font: 13px/13px MyriadProRegular;
+        background: #fff;
+        cursor: pointer;
+        position: absolute;
+        width: 188px;
+        height: 57px;
+		margin-bottom: 141px;
+        margin: 0 -93px;
+		
+    }
+	.btn:hover {
+		background: #ebebeb;
+		font-size: bold 14px; ;
+    }
+    .input img {
+    	padding: 0 49.5% 10%;
+    }
+
+/*О НАС*/
+	#O_Nas {
+		background: #1d1d1d;
+		height: 1200px;
+	}
+    .bloks {
+    	width: 640px;
+    }
+    .blok1 {
+    	float: left;
+    	width: 670px;
+    	border-right: 5px solid #fff;
+    	height: 1200px;
+    }
+    .blok1_all {
+    	width: 418px;
+    	margin: 20% 20% 0;
+    	padding: 0 10%;
+    }
+    .August {
+    	text-align: right;
+    	color: #fff;
+    	font-size: 48px;
+    	line-height: 1.4;
+    }
+    .p-August {
+    	font-size: 15px ;
+    	color: #b7b7b7;
+    }
+    .blok2 {
+    	float: right;
+    	width: 670px;
+
+    	}
+
+    .border1 {
+    	border-radius: 20px;
+    	border: 5px solid #fff;
+    	width: 20px;
+    	height: 20px;
+    	background: #1d1d1d;
+    	float: right;
+    }
+    .blok1-border {
+    	width: 554px;
+ 		margin: 20%;
+    }
+
+    .blok1_all2 {
+    	width: 418px;
+    	margin: -4% 100% 25%;
+    	padding: 0 10%;
+    	float: left;
+    }
+    .November {
+    	color: #fff;
+    	font-size: 48px ;
+    	line-height: 1.4;
+    }
+    .p-November  {
+    	font-size: 15px;
+    	color: #b7b7b7;
+    }
+
+    .border2 {
+    	border-radius: 20px;
+    	border: 5px solid #fff;
+    	width: 20px;
+    	height: 20px;
+    	background: #1d1d1d;
+    	float: right;
+    }
+    .blok1-border2 {
+    	width: 554px;
+ 		margin: 0 20% 0;
+    }
+
+
+	.border3 {
+    	border-radius: 25px;
+    	border: 5px solid #fff;
+    	width: 40px;
+    	height: 40px;
+    	background: #1d1d1d;
+    	float: right;
+    }
+
+    .blok1-border3 {
+    	width: 554px;
+ 		margin: 0 21.3% 0;
+    }
+
+	.blok4 {
+    	float: right;
+    	width: 670px;
+    	margin-top: 100px;
+
+    	}
+
+    .imegs {
+    	margin-top: -50px;
+  		width: 1346px;
+    	}
+
+
+/*НАША КОМАНДА*/
+
+	#Our-team {
+		margin: 40px 0;
+		width: 1347px;
+		height: 700px;
+		background: #fff;
+	}
+	.team {
+		font-size: 34px;
+		text-align: center;
+		line-height: 2;
+	}
+    
+    .team-bottom {
+    	font-size: 16px;
+    	color: #898888;
+		text-align: center;
+    }
+
+    .services-item {
+	float: left;
+	width: 31%;
+	padding: 200px  8px 0;
+	text-align: center;
+
+}
+   .title { 
+    font-size: 24px;
+    color: #464646;
+    
+}
+.services-item p { 
+	font-size: 13px;
+	color: #777;
+    line-height: 2;
+}
+.services-item img{ 
+    padding: 20px 0;
+}
+.services-wrap  { 
+	margin: 170px 80px 80px;
+	text-align: center;
+	width: 1200px;
+
+	}
+
+.commerce {
+	background: url(../images/programmist.png) no-repeat center top;
+	margin: 150px 5px 80px;
+}
+.responsive {
+	background: url(../images/dizainer.png) no-repeat center top;
+}
+.security {
+	background: url(../images/maket.png) no-repeat center top;
+	margin: 150px 5px 30px;
+}
+
+/*НАШИ УБЕЖДЕНИЕ*/
+
+#Beliefs{
+    background: #fff;
+    width: 1345px;
+    height: 1500px;
+    margin-top: 80px;
+}
+
+#parallelogram {
+    width: 1345px;
+    height: 1400px;
+    background: #181818;
+    -webkit-transform: skew(-5deg);
+    -moz-transform: skew(-5deg);
+    -o-transform: skew(-5deg);
+    transform: skewY(-5deg);
+    margin-top: 150px;
+    overflow:hidden;
+
+   }
+
+   .ugol {
+    p
+    -webkit-transform: skw(5deg);
+    -moz-transform: skew(5deg);
+    -o-transform: skew(5deg);
+    transform: skewY(5deg);
+    padding: 160px 20px 0 ;
+}
+
+   .team2 {
+        font-size: 34px;
+        text-align: center;
+        line-height: 2;
+        color: #fff;
+    }
+
+    .services-item2 {
+    float: left;
+    width: 29.33%;
+    padding: 200px  8px 0;
+    text-align: center;
+
+}
+ .title2 { 
+    font-size: 24px;
+    color: #fff;
+    
+}
+.services-item2 p { 
+    font-size: 13px;
+    color: #777;
+    line-height: 2;
+    margin: 0 47px;
+}
+
+.services-item2:first-child { 
+    width: 31%;
+}
+
+.services-item2 img{ 
+    padding: 20px 0;
+}
+.services-wrap2  { 
+    margin: 170px 80px 30px;
+    text-align: center;
+    width: 1200px;
+
+    }
+
+.commerce2 {
+    background: url(../images/col1.png) no-repeat center top;
+ 
+}
+.responsive2 {
+    background: url(../images/HEART.png) no-repeat center top;
+}
+.security2 {
+    background: url(../images/col3.png) no-repeat center top;
+    
+}
+
+
+.post-text img{
+    
+    padding: 0 15%;
+    position: relative;
+    width: 65%; 
+     }
+
+.post-text {
+    position: relative;
+    width: 112%; 
+     }
+
+
+
+ .btn2{
+        
+        color: #000;
+        border: 1px solid #000;
+        font: bold 13px/13px MyriadProRegular;
+        background: #fff;
+        cursor: pointer;
+        position: absolute;
+        width: 218px;
+        height: 65px;
+        margin: 337px -847px 0;
+
+        
+    }
+    .btn2:hover {
+        background: #ebebeb;
+        font: bold 14px/14px MyriadProRegular;
+    }
+
+/*СВЯЖИТЕСЬ С НАМИ*/
+
+#connect {
+    background: #fff;
+    height: 100% ;
+    text-align: center;
+    width: 100%;
+    
+
+}
+.services-wrap3  { 
+
+   padding: 60px 190px;
+  width: 60%;
+  margin: 0 100px;
+
+    }
+ 
+ .services-item3 {
+    width: 18%;
+  padding: 30px 60px;;
+   float: left;
+    font-size: 12px;
+
+}
+    
+.services-item3 p { 
+    font-size: 13px;
+    color: #777;
+    line-height: 2;
+}
+.services-item3 img{ 
+    padding: 20px 0;
+}
+
+
+   .services-item3:first-child { 
+    width: 17%;
+  padding: 30px 55px;
+}
+.services-item3:last-child { 
+      width: 28%;
+  padding: 30px 10px;
+}
+
+
+.commerce3 {
+    background: url(../images/tel.png) no-repeat center top;
+}
+.responsive3 {
+    background: url(../images/ukaz.png) no-repeat center top;
+}
+.security3 {
+    background: url(../images/mail.png) no-repeat center top;
+}
+
+.forms {
+  padding: 60px 190px 0;
+  width: 60%;
+  margin: 0 100px;
+}
+
+.forms input{
+    width: 770px;
+    height: 52px;
+    text-align: center;
+    margin: 20px;
+    font-size: 15px;
+    color: #898888;
+
+}
+
+.forms input#sent{
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+    font-size: 17px;
+
+}
+
+.forms textarea {
+    width: 770px;
+    height: 195px;
+    color: #898888;
+    text-align: center;
+    font-size: 15px;
+    line-height: 4;
+}
+
+#end {
+    font-size: 14px;
+    text-align: center;
+    margin: 80px auto 0;
+    width: 450px;
+    line-height: 2;
+}
